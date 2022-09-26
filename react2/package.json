@@ -1,6 +1,5 @@
 {
   "name": "react2",
-  "homepage": "http://faith993.github.io/ChuckNorris",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,14 +16,15 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+
   },
 
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
+      
     ]
   },
   "browserslist": {
@@ -39,7 +39,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "web-vitals": "^3.0.2"
+  "homepage": "https://faith993.github.io/ChuckNorris",
+  "devDependencies"
+    "web-vitals": "^3.0.2",
+      "gh-pages": "2.2.0"
   }
 }
